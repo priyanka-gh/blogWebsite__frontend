@@ -1,0 +1,38 @@
+.AddCategory {
+  max-height: 100vh;
+}
+.catDiv {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+.addCatForm {
+  margin: 7rem 0 4rem 0;
+}
+.lowerAdd {
+  max-width: 100vw;
+  background-color: aliceblue;
+  color: rgb(39, 107, 84);
+  margin: 1rem 10rem;
+  height: 45vh;
+  overflow-x: hidden;
+}
+.lowerAdd::-webkit-scrollbar {
+  display: none;
+}
+.typeCat {
+  outline: none;
+  font-size: 1rem;
+}
+.text-success {
+  background-color: rgb(221, 238, 196);
+  margin: 0 30rem;
+  padding: 1rem;
+}
+.text-warning {
+  background-color: rgb(238, 209, 196);
+  margin: 0 30rem;
+  padding: 1rem;
+}

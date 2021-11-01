@@ -1,0 +1,57 @@
+.AppImg {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 2rem 4rem;
+  overflow: hidden;
+}
+.image-item {
+  display: flex;
+  flex-direction: row;
+
+  margin: 10px 0;
+}
+.image-item__btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.ImageButton {
+  height: 40px;
+  width: 100%;
+  padding: 0 3rem;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 1rem 1rem;
+  background-color: rgb(134, 120, 133);
+}
+.ImageButton:hover {
+  background-color: rgb(112, 98, 111);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Quicksand&family=Oldenburg&display=swap");
+
+.updateImg,
+.remImg {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin: 0.5rem;
+  background-color: rgb(209, 184, 156);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.updateImg:hover,
+.remImg:hover {
+  background-color: rgb(199, 166, 129);
+}
+
+.ImageButton {
+  font-family: "Quicksand";
+  padding: 0.5rem;
+}

@@ -1,0 +1,19 @@
+.updated {
+  height: 100vh;
+  background-color: black;
+  background-color: #e8f5f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkIcon {
+  color: peru;
+  font-size: 6rem;
+}
+.h1Updated {
+  color: rgb(99, 93, 87);
+  margin-left: 2rem;
+}
+/* .MuiSvgIcon-root {
+  font-size: 6rem;
+} */
